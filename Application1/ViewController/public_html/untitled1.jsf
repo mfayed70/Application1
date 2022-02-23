@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE html>
+<f:view xmlns:f="http://java.sun.com/jsf/core" xmlns:af="http://xmlns.oracle.com/adf/faces/rich">
+    <af:document title="untitled1.jsf" id="d1">
+        <af:form id="f1">
+            <af:pageTemplate viewId="/oracle/templates/threeColumnTemplate.jspx" id="pt1">
+                <f:facet name="center">
+                    <af:panelGroupLayout id="pgl1" layout="horizontal" halign="center">
+                        <af:inputText label="Label 1" id="it1"/>
+                        <af:link text="DICOM" id="l1"
+                                 destination="http://app.xrad.sehatcloud.com:3000/viewer/AETitle=REVNQ0VOLDIuMjUuMjM4MTE3MTE4ODk2MDEzMTUxMjAzMTg1NjQ2Mzg4NTc4OTA0NzU5LDIwMjExMDIx" targetFrame="_blank"/>
+                        <f:facet name="separator">
+                            <af:spacer width="10" height="10" id="s1"/>
+                        </f:facet>
+                    </af:panelGroupLayout>
+                </f:facet>
+                <f:facet name="header"/>
+                <f:facet name="end"/>
+                <f:facet name="start"/>
+                <f:facet name="branding"/>
+                <f:facet name="copyright"/>
+                <f:facet name="status"/>
+            </af:pageTemplate>
+        </af:form>
+    </af:document>
+</f:view>
